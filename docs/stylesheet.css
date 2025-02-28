@@ -12,6 +12,25 @@ h1 {
   font-size: 5em;
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+ul {  
+  padding: 0;
+}
+li {
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
 
 footer {
   color: black;
@@ -25,6 +44,9 @@ footer {
 footer ul {
   list-style: none;
   padding: 0;
+}
+footer li {
+  color: black;
 }
 
 footer a {
@@ -51,7 +73,11 @@ header ul {
   padding: 0;
 }
 header li {
+  color: black;
+  background-color: lightgray;
   display: inline;
+  border: 2px solid lightgray;
+  border-radius: 5px;
 }
 
 header a {
